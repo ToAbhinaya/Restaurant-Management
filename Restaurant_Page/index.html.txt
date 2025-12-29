@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Masala & Mozzarella Café - Experience the perfect fusion of Indian and Italian cuisines. Authentic flavors, cozy ambiance, and exceptional service.">
+    <meta name="keywords" content="Indian Italian fusion, restaurant, café, Masala Mozzarella, fine dining, fusion cuisine">
+    <meta name="author" content="Masala & Mozzarella Café">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Masala & Mozzarella Café - Indian-Italian Fusion">
+    <meta property="og:description" content="Experience the perfect fusion of Indian and Italian cuisines. Authentic flavors, cozy ambiance, and exceptional service.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <title>Masala & Mozzarella Café - Indian-Italian Fusion Restaurant</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-shop-window me-2"></i>Masala & Mozzarella
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm btn-outline-light ms-2" id="darkModeToggle" aria-label="Toggle dark mode">
+                            <i class="bi bi-moon-stars" id="darkModeIcon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <div class="hero-logo mb-4">
+                        <i class="bi bi-shop-window display-1"></i>
+                    </div>
+                    <h1 class="display-3 fw-bold mb-3">Masala & Mozzarella Café</h1>
+                    <p class="lead mb-4">Where Indian Spices Meet Italian Flavors</p>
+                    <p class="h5 mb-5">Experience the perfect fusion of authentic Indian spices and classic Italian cuisine in every bite.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-lg me-3 mb-3" role="button">Reserve Table</a>
+                        <a href="#menu" class="btn btn-outline-light btn-lg mb-3" role="button">View Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="text-white" aria-label="Scroll to about section">
+                <i class="bi bi-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://via.placeholder.com/600x400?text=Restaurant+Interior" alt="Masala & Mozzarella Café interior showcasing the warm and inviting ambiance" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">Our Story</h2>
+                    <p class="lead">A Culinary Journey Across Two Continents</p>
+                    <p>Founded in 2020, Masala & Mozzarella Café was born from a passion for bringing together the rich, aromatic spices of India with the comforting, elegant flavors of Italy. Our chefs craft each dish with precision, blending traditional techniques with innovative fusion concepts.</p>
+                    <p>We believe that great food brings people together. Our menu features carefully curated dishes that honor both culinary traditions while creating something uniquely delicious. From our signature Butter Chicken Pizza to our Spicy Arrabbiata with a hint of garam masala, every dish tells a story.</p>
+                    <p>Come experience a dining adventure where East meets West, and every meal is a celebration of flavor, culture, and community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights Section -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Menu Highlights</h2>
+                    <p class="lead">Our Signature Fusion Dishes</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Menu Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <span class="badge bg-danger position-absolute top-0 end-0 m-2" id="special-badge-1">Today's Special</span>
+                        <img src="https://via.placeholder.com/400x300?text=Butter+Chicken+Pizza" class="card-img-top" alt="Butter Chicken Pizza - Fusion dish combining Italian pizza with Indian butter chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Butter Chicken Pizza</h5>
+                            <p class="card-text">Creamy butter chicken on a crispy Italian pizza base, topped with mozzarella and fresh cilantro.</p>
+                            <p class="text-primary fw-bold">$18.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Masala+Pasta" class="card-img-top" alt="Masala Pasta - Italian pasta with Indian spices">
+                        <div class="card-body">
+                            <h5 class="card-title">Masala Arrabbiata Pasta</h5>
+                            <p class="card-text">Classic Italian arrabbiata pasta infused with garam masala and Indian red chili, served with garlic naan.</p>
+                            <p class="text-primary fw-bold">$16.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Tandoori+Margherita" class="card-img-top" alt="Tandoori Margherita Pizza - Traditional margherita with tandoori flavors">
+                        <div class="card-body">
+                            <h5 class="card-title">Tandoori Margherita</h5>
+                            <p class="card-text">Traditional margherita pizza with a tandoori twist, featuring marinated tomatoes and fresh basil.</p>
+                            <p class="text-primary fw-bold">$17.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Chicken+Tikka+Lasagna" class="card-img-top" alt="Chicken Tikka Lasagna - Layers of pasta with spiced chicken tikka">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Tikka Lasagna</h5>
+                            <p class="card-text">Layers of pasta, spiced chicken tikka, béchamel sauce, and mozzarella cheese, baked to perfection.</p>
+                            <p class="text-primary fw-bold">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Paneer+Risotto" class="card-img-top" alt="Paneer Risotto - Creamy Italian risotto with Indian paneer">
+                        <div class="card-body">
+                            <h5 class="card-title">Paneer Tikka Risotto</h5>
+                            <p class="card-text">Creamy Arborio rice cooked with marinated paneer, tomatoes, and aromatic Indian spices.</p>
+                            <p class="text-primary fw-bold">$17.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Samosa+Ravioli" class="card-img-top" alt="Samosa Ravioli - Italian ravioli filled with samosa-style potatoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Samosa Ravioli</h5>
+                            <p class="card-text">Italian ravioli filled with spiced potato and peas, served with mint chutney and tamarind sauce.</p>
+                            <p class="text-primary fw-bold">$15.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Biryani+Risotto" class="card-img-top" alt="Biryani Risotto - Fusion of Indian biryani and Italian risotto">
+                        <div class="card-body">
+                            <h5 class="card-title">Biryani Risotto</h5>
+                            <p class="card-text">Aromatic basmati rice cooked risotto-style with saffron, spices, and tender chicken or vegetables.</p>
+                            <p class="text-primary fw-bold">$18.99</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm menu-card">
+                        <img src="https://via.placeholder.com/400x300?text=Gulab+Jamun+Tiramisu" class="card-img-top" alt="Gulab Jamun Tiramisu - Fusion dessert combining Italian and Indian sweets">
+                        <div class="card-body">
+                            <h5 class="card-title">Gulab Jamun Tiramisu</h5>
+                            <p class="card-text">A decadent fusion dessert combining Italian tiramisu with traditional Indian gulab jamun.</p>
+                            <p class="text-primary fw-bold">$12.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Gallery</h2>
+                    <p class="lead">A Glimpse of Our Ambiance & Cuisine</p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+1" class="img-fluid gallery-img rounded shadow-sm" alt="Fusion dish presentation" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+1">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+2" class="img-fluid gallery-img rounded shadow-sm" alt="Restaurant interior view" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+2">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+3" class="img-fluid gallery-img rounded shadow-sm" alt="Chef preparing fusion cuisine" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+3">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+4" class="img-fluid gallery-img rounded shadow-sm" alt="Signature pizza dish" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+4">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+5" class="img-fluid gallery-img rounded shadow-sm" alt="Pasta fusion dish" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+5">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://via.placeholder.com/400x300?text=Dish+6" class="img-fluid gallery-img rounded shadow-sm" alt="Dessert presentation" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-image="https://via.placeholder.com/800x600?text=Dish+6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img src="" class="img-fluid" id="modalImage" alt="Gallery image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">What Our Customers Say</h2>
+                    <p class="lead">Testimonials from Our Valued Guests</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center p-5">
+                                    <div class="mb-4">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                    <p class="lead mb-4">"The Butter Chicken Pizza is absolutely incredible! I never thought Indian and Italian flavors could blend so perfectly. A must-try!"</p>
+                                    <h5 class="fw-bold">Sarah Johnson</h5>
+                                    <p class="text-muted">Food Blogger</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-5">
+                                    <div class="mb-4">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                    <p class="lead mb-4">"Amazing atmosphere and even better food! The Masala Arrabbiata Pasta was a flavor explosion. We'll definitely be back!"</p>
+                                    <h5 class="fw-bold">Michael Chen</h5>
+                                    <p class="text-muted">Regular Customer</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-5">
+                                    <div class="mb-4">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                    <p class="lead mb-4">"The fusion concept is executed beautifully. Every dish is a work of art, and the service is exceptional. Highly recommend!"</p>
+                                    <h5 class="fw-bold">Priya Patel</h5>
+                                    <p class="text-muted">Chef & Food Critic</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-5">
+                                    <div class="mb-4">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                    <p class="lead mb-4">"Best restaurant in town! The Gulab Jamun Tiramisu is out of this world. Perfect for date night or family dinner."</p>
+                                    <h5 class="fw-bold">David Martinez</h5>
+                                    <p class="text-muted">Local Food Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Contact & Location</h2>
+                    <p class="lead">Visit Us or Get in Touch</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Contact Information</h4>
+                        <div class="mb-3">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Address:</strong><br>
+                            <span>123 Fusion Street, Culinary District<br>New York, NY 10001</span>
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-telephone-fill text-primary me-2"></i>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-8900</a>
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-envelope-fill text-primary me-2"></i>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:info@masalamozzarella.com" class="text-decoration-none">info@masalamozzarella.com</a>
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-clock-fill text-primary me-2"></i>
+                            <strong>Opening Hours:</strong><br>
+                            <span>Monday - Thursday: 11:00 AM - 10:00 PM<br>
+                            Friday - Saturday: 11:00 AM - 11:00 PM<br>
+                            Sunday: 12:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="map-container mb-4">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184132376035!2d-73.98811768459382!3d40.75889597932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square%2C%20New%20York%2C%20NY%2010036!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 8px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Masala & Mozzarella Café Location Map">
+                        </iframe>
+                    </div>
+                    <div class="contact-form">
+                        <h4 class="mb-4">Send Us a Message</h4>
+                        <form id="contactForm" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your name.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="subject" name="subject" required>
+                                <div class="invalid-feedback">
+                                    Please provide a subject.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please provide a message.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                        <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                            Thank you! Your message has been sent successfully.
+                        </div>
+                        <div id="formError" class="alert alert-danger mt-3 d-none" role="alert">
+                            There was an error sending your message. Please try again.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-3">Masala & Mozzarella Café</h5>
+                    <p>Where Indian Spices Meet Italian Flavors. Experience the perfect fusion of authentic cuisines.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white me-3" aria-label="Instagram"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white me-3" aria-label="Twitter"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white me-3" aria-label="Yelp"><i class="bi bi-yelp fs-4"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-3">Opening Hours</h5>
+                    <ul class="list-unstyled">
+                        <li>Monday - Thursday: 11:00 AM - 10:00 PM</li>
+                        <li>Friday - Saturday: 11:00 AM - 11:00 PM</li>
+                        <li>Sunday: 12:00 PM - 9:00 PM</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#menu" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="#gallery" class="text-white text-decoration-none">Gallery</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="mb-0">&copy; 2024 Masala & Mozzarella Café. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
